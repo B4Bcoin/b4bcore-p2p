@@ -19,13 +19,13 @@
     "url": "https://github.com/B4Bcoin/b4bcore-p2p.git"
   },
   "dependencies": {
-    "@B4Bcoin/b4bcore-lib": "^1.0.4",
+    "@B4Bcoin/b4bcore-lib": "git+https://git@github.com/B4Bcoin/b4bcore-lib",
     "bloom-filter": "^0.2.0",
-    "node-buffers": "B4Bcoin/node-buffers",
+    "node-buffers": "git+https://git@github.com/B4Bcoin/node-buffers",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "b4bcore-build": "B4Bcoin/b4bcore-build",
+    "b4bcore-build": "git+https://git@github.com/B4Bcoin/b4bcore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
