@@ -1,19 +1,19 @@
-Ravencore P2P
+b4bcore P2P
 =======
 
-`ravencore-p2p` adds [Ravencoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Ravencore.
+`b4bcore-p2p` adds [b4bcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for b4bcore.
 
-See [the main ravencore repo](https://github.com/RavenDevKit/ravencore) for more information.
+See [the main b4bcore repo](https://github.com/B4Bcoin/b4bcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install ravencore-p2p
+npm install b4bcore-p2p
 ```
-In order to connect to the Ravencoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the B4Bcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('ravencore-p2p').Peer;
+var Peer = require('b4bcore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -41,10 +41,7 @@ peer.on('tx', function(message) {
 
 Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usage of the `Peer` class.
 
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/RavenDevKit/ravencore/blob/master/CONTRIBUTING.md) on the main ravencore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/RavenDevKit/ravencore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/B4Bcoin/b4bcore/blob/master/LICENSE).

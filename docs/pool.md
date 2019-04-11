@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('ravencore-p2p').Pool;
-var Networks = require('ravencore-lib').Networks;
+var Pool = require('b4bcore-p2p').Pool;
+var Networks = require('b4bcore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

@@ -1,4 +1,4 @@
-var ravencore = require('@ravendevkit/ravencore-lib');
-ravencore.P2P = require('./lib');
+var b4bcore = require('@B4Bcoin/b4bcore-lib');
+b4bcore.P2P = require('./lib');
 
-module.exports = ravencore.P2P;
+module.exports = b4bcore.P2P;

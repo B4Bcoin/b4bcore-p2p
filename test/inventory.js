@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var ravencore = require('@ravendevkit/ravencore-lib');
+var b4bcore = require('@B4Bcoin/b4bcore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = ravencore.util.buffer;
-var BufferWriter = ravencore.encoding.BufferWriter;
-var BufferReader = ravencore.encoding.BufferReader;
+var BufferUtils = b4bcore.util.buffer;
+var BufferWriter = b4bcore.encoding.BufferWriter;
+var BufferReader = b4bcore.encoding.BufferReader;
 
 describe('Inventory', function() {
 

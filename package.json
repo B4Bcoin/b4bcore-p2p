@@ -1,7 +1,7 @@
 {
-  "name": "ravencore-p2p",
+  "name": "b4bcore-p2p",
   "version": "1.0.0",
-  "description": "Interface to the ravencoin P2P network for ravencore",
+  "description": "Interface to the b4bcoin P2P network for b4bcore",
   "author": "Under",
   "main": "index.js",
   "scripts": {
@@ -11,21 +11,21 @@
     "build": "gulp"
   },
   "keywords": [
-    "ravencoin",
-    "ravencore"
+    "b4bcoin",
+    "b4bcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RavenDevKit/ravencore-p2p.git"
+    "url": "https://github.com/B4Bcoin/b4bcore-p2p.git"
   },
   "dependencies": {
-    "@ravendevkit/ravencore-lib": "^1.0.4",
+    "@B4Bcoin/b4bcore-lib": "^1.0.4",
     "bloom-filter": "^0.2.0",
-    "node-buffers": "RavenDevKit/node-buffers",
+    "node-buffers": "B4Bcoin/node-buffers",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "ravencore-build": "RavenDevKit/ravencore-build",
+    "b4bcore-build": "B4Bcoin/b4bcore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

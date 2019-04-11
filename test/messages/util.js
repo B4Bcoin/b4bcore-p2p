@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var ravencore = require('@ravendevkit/ravencore-lib');
-var BufferReader = ravencore.encoding.BufferReader;
+var b4bcore = require('@B4Bcoin/b4bcore-lib');
+var BufferReader = b4bcore.encoding.BufferReader;
 
 describe('Message Utils', function() {
 

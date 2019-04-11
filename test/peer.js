@@ -10,14 +10,14 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var ravencore = require('@ravendevkit/ravencore-lib');
-var _ = ravencore.deps._;
+var b4bcore = require('@B4Bcoin/b4bcore-lib');
+var _ = b4bcore.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;
 var EventEmitter = require('events').EventEmitter;
 var Messages = P2P.Messages;
 var messages = new Messages();
-var Networks = ravencore.Networks;
+var Networks = b4bcore.Networks;
 
 describe('Peer', function() {
 
